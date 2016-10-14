@@ -11,4 +11,5 @@ namespace NumberTheory
 	bool if_relatively_prime (int number_a, int number_b);
 	bool if_Armstrong (int number);
 	bool if_palindrom (int number);
+	bool if_even(int number);
 }
