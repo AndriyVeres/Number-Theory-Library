@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 #include "NumberTheory.h"
 
 namespace NumberTheory
@@ -281,14 +281,16 @@ return 1;
 
 //check if input number - even number
 
-bool if_even(int number)
+/*template <typename T>
+
+bool if_even(T number)
 {
 if (number==0) return false;
 else
 	{
-	if(number%2==0) return true;
-	else            return false;
+	if(fmod(number,2)==0) return true;
+	else                  return false;
 	}
 }
-
+*/
 }

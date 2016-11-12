@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 #include "NumberTheory.h"
 
 namespace NumberTheory
@@ -277,19 +277,6 @@ for(;digits!=half_of_digits;digits--)
 //number - palindrom
 
 return 1;
-}
-
-
-//check if input number - even number
-
-bool if_even(int number)
-{
-if (number==0) return false;
-else
-	{
-	if(number%2==0) return true;
-	else            return false;
-	}
 }
 
 }

@@ -1,6 +1,6 @@
 #ifndef NumberTheory_h
 #define NumberTheory_h
-#include <iostream>
+#include <cmath>
 #endif
 
 namespace NumberTheory
@@ -11,5 +11,8 @@ namespace NumberTheory
 	bool if_relatively_prime (int number_a, int number_b);
 	bool if_Armstrong (int number);
 	bool if_palindrom (int number);
-	bool if_even(int number);
+
+	//functions-templates
+	template <typename T>
+	#include "NumberTheoryTemplates.h"
 }

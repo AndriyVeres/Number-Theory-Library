@@ -49,6 +49,7 @@ Returns logical **TRUE** if input number - palindrom number.
 
 *Palindrom - number, that reads the same in both directions (from left to right and vise versa).*
 
-### 7) bool if_even (int number);
+### 7) template <typename T> bool if_even (T number);
 
 Returns logical **TRUE** if input number - even number.
+Input number must be int or with float point (float double e.t.c).
